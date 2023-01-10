@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .main-part {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    h1 {
+        color: #142850;
+        font-size: 56px;
+    }
+    p{
+        margin-top:10px;
+    }
+
+    .footer {
+        color: #fff;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="main-part">
+            
+            <h1>The Weather Intelligence</h1>
+    <h2> Temperature of <%=cityName%> is <%=temperature%> </h2>
+    <h2> The weather is currently <%=describe%></h2>
+    <img src=<%=icon%>></img>
+            
+        </div>
+
+        <div class="footer">
+            <h5>Made by Shivam Raghav</h5>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
