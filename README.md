@@ -10,8 +10,6 @@ This project is mainly for learning purposes with the emphasis on the following 
 - Using Body Parser to Parse POST Requests to the Server.
 
 
-# Usage
-This project has no usage other than to present future employers of my progresss as a Full-Stack Web Developer.
 
 # Credits
 Dr. Angela Yu
