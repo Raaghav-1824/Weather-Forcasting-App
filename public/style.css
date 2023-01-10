@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CDF0EA;
+    background-position: center;
+}
+h1{
+    font-weight: bolder;
+    margin:5%;
+}
+
+h3{
+    margin:5%;
+
+}
+
+.input-div {
+  
+    display: grid;
+    margin-top: 15vh;
+    justify-content: center;
+    height: 90vh;
+}
+
+img {
+    margin-bottom: 5vh;
+    height: 15vh;
+    width: 12vw;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    background: transparent;
+
+}
